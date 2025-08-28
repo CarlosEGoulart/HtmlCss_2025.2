@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(58, 58, 58);
+    padding: 12px;
+    color: rgb(202, 202, 202);
+}
+
+header{
+    padding: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+header h1{
+    text-align: center;
+}
+
+header nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0px;
+    padding: 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+}
+
+main{
+    text-align: center;
+}
+
+article{
+    align-items: center;
+    padding: 12px;
+}
+
+section{
+    padding: 12px;
+}
+
+.desenhos{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+#desenhoGatoMafioso{
+    color: blueviolet;
+}
+
+.pinturas{
+    color: rgb(255, 153, 128);
+}
+
+.outros{
+    color:beige
+}
+
+
