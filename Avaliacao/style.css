@@ -12,6 +12,17 @@ body {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+}
+  
 header {
   display: flex;
   position: relative;
@@ -19,7 +30,6 @@ header {
 
 header #name {
   position: absolute;
-  text-align: justify;
   font-weight: 800;
   left: 96px;
   font-size: 48px;
@@ -44,7 +54,6 @@ header .menu {
 }
 
 main {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,14 +78,14 @@ main #presentation {
   font-size: 100px;
   font-weight: 400;
   margin: 0;
-  left: 200px;
+  left: 250px;
 }
 
 main .socialMedia {
   position: absolute;
   gap: 32px;
-  left: 160px;
-  bottom: 300px;
+  left: 210px;
+  bottom: 275px;
 }
 
 main .socialMedia ul li .image {
@@ -87,17 +96,21 @@ main .socialMedia ul li .image {
 
 main .landing #carlosPhoto {
   position: absolute;
-  right: 130px;
+  right: 250px;
   bottom: 235px;
 }
 
-main footer {
+.landing footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main footer p {
+footer p {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 5px;
