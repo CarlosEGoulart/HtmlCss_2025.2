@@ -19,22 +19,25 @@
 
     <main>
       <section class="landing">
-        <h2 id="presentation">Web <br /> Developer.</h2>
+        <h2 id="presentation">
+          Web <br />
+          Developer.
+        </h2>
         <nav class="socialMedia">
           <ul>
             <li>
               <a href="https://github.com/carlosegoulart">
-                <img class="image" id="githubIcon" src="./assets/github.png" alt="GitHub" />
+                <img
+                  class="image"
+                  id="githubIcon"
+                  src="./assets/github.png"
+                  alt="GitHub"
+                />
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/carlosegoulart">
-                <img
-                  class="image"
-                  id="linkedinIcon"
-                  src="./assets/linkedin.png"
-                  alt="LinkedIn"
-                />
+                <img class="image" id="linkedinIcon" src="./assets/linkedin.png" alt="LinkedIn"/>
               </a>
             </li>
             <li>
@@ -58,16 +61,42 @@
       </section>
 
       <section class="aboutMe">
-        <h2>Carlos Eduardo Goulart Oliveira</h2>
-        <p>
-          Estudante de Sistemas para Internet na UTFPR,<br />
-          desenvolvedor com grande interesse em projetos Full Stack<br />
-          e tecnologias modernas.
-        </p>
-        <p>
-          Busco oportunidades para aplicar meu conhecimento, aprender<br />
-          com profissionais experientes e contribuir para projetos desafiadores.
-        </p>
+          <h2 id="highlightName">Carlos Eduardo Goulart Oliveira</h2>   
+          
+          <p id="description">
+            Estudante de Sistemas para Internet na UTFPR,<br />
+            desenvolvedor com grande interesse em projetos Full Stack<br />
+            e tecnologias modernas.
+          </p>
+          
+          <p id="goals">
+            Busco oportunidades para aplicar meu conhecimento, aprender<br />
+            com profissionais experientes e contribuir para projetos desafiadores.
+          </p>
+        
+        <section class="contactMe">
+          <div id="contactMeText">
+            <h3 id="contactMeTitle">Entre em contato</h3>
+
+          </div>
+          
+          <form class="contactForm" action="mailto: goulart193@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </section>
+
       </section>
     </main>
   </body>

@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -22,7 +23,7 @@ section {
   padding: 0;
   position: relative;
 }
-  
+
 header {
   display: flex;
   position: relative;
@@ -115,3 +116,52 @@ footer p {
   font-weight: 400;
   margin-bottom: 5px;
 }
+
+.aboutMe {
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 150px;
+  gap: 48px;
+}
+
+.aboutMe #highlightName {
+  font-size: 52px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.aboutMe #description {
+  font-size: 38px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.aboutMe #goals {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.contactMe {
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  background-color: #1b1b1b;
+  border-radius: 32px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 600px;
+  height: 800px;
+  position: absolute;
+  right: 150px;
+}
+
+#contactMeText {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+  padding: 32px;
+}
+
+
