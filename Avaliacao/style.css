@@ -1,6 +1,4 @@
-html,
-body {
-  height: 100vh;
+html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,195 +11,34 @@ body {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section {
-  height: 100vh;
-  scroll-snap-align: start;
+header{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  position: relative;
-}
-
-header {
-  display: flex;
-  position: relative;
-}
-
-header #name {
-  position: absolute;
-  font-weight: 800;
-  left: 96px;
-  font-size: 48px;
-  top: 40px;
-  margin: 0;
-}
-
-header #menuIcon {
-  position: absolute;
-  right: 96px;
-  margin: 0;
-}
-
-header .menu {
-  position: absolute;
-  right: 0;
-  height: 100px;
-  width: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-main .landing {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-}
-
-main .landing ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 32px;
-}
-
-main #presentation {
-  position: absolute;
-  font-size: 100px;
-  font-weight: 400;
-  margin: 0;
-  left: 250px;
-}
-
-main .socialMedia {
-  position: absolute;
-  gap: 32px;
-  left: 210px;
-  bottom: 275px;
-}
-
-main .socialMedia ul li .image {
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-}
-
-main .landing #carlosPhoto {
-  position: absolute;
-  right: 250px;
-  bottom: 235px;
-}
-
-.landing footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer p {
-  font-size: 24px;
-  font-weight: 400;
-  margin-bottom: 5px;
-}
-
-.aboutMe {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  padding: 0 150px;
-  gap: 48px;
+  text-align: start;
+  margin: 3rem;
 }
 
-.aboutMe #highlightName {
-  font-size: 52px;
-  font-weight: 800;
-  margin: 0;
+header .text{  
+  font-weight: bold;
 }
 
-.aboutMe #description {
-  font-size: 38px;
-  font-weight: 400;
-  margin: 0;
+header #name{
+  font-size: 42px;
 }
 
-.aboutMe #goals {
-  font-size: 28px;
-  font-weight: 400;
-  margin: 0;
+header #profission{
+  font-size: 24px;
 }
 
-.contactMe {
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  text-align: center;
-  background-color: #1b1b1b;
-  border-radius: 32px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 600px;
-  height: 800px;
+header #description{
+  font-size: 18px;
+}
+
+header .image{
+  height: 12rem;
+  width: 12rem;
   position: absolute;
-  right: 150px;
-}
-
-#contactMeText {
-  font-size: 28px;
-  font-weight: 400;
-  margin: 0;
-  padding: 32px;
-}
-
-#contactForm {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 16px;
-  padding: 32px;
-}
-
-#contactForm input,
-#contactForm textarea {
-  width: 400px;
-  background-color: #1b1b1b;
-  border: 1px solid #e6e6e6;
-  border-radius: 8px;
-  padding: 16px;
-  font-size: 16px;
-  color: #e6e6e6;
-  font-family: Neuton;
-}
-
-#contactForm textarea {
-  height: 150px;
-}
-
-#contactForm button {
-  background-color: #e6e6e6;
-  color: #1b1b1b;
-  border: none;
-  border-radius: 8px;
-  padding: 16px 32px;
-  font-size: 16px;
-  cursor: pointer;
-  width: 100%;
-  font-family: Neuton;
-}
-
-#contactForm button:hover {
-  background-color: #1b1b1b;
-  color: #e6e6e6;
+  right: 3rem;
 }
